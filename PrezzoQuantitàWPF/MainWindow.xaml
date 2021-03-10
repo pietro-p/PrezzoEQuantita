@@ -5,18 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PrezzoQuantitàWPF"
         mc:Ignorable="d"
-        Title="Prezzo e Quantità" Height="450" Width="800" Background="#FF109FBF">
+        Title="Prezzo e Quantità" Height="363.903" Width="649.617" Background="#FF109FBF" ResizeMode="NoResize">
     <Grid>
-        <Label Content="Prezzo" HorizontalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="175,110,0,0" Height="44" Width="120" FontSize="25
+        <Label Content="Prezzo" HorizontalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="73,64,0,0" Height="44" Width="120" FontSize="25
                " Foreground="#FFF90000"/>
-        <TextBox x:Name="txtPrezzo" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="175,159,0,0"/>
-        <Button x:Name="btnMostra" Content="Calcola" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="341,204,0,0" Height="27" Click="btnMostra_Click" FontSize="15"/>
-        <Label x:Name="lblRisultato" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="422,236,0,0" Width="305" FontSize="14" Height="37"/>
-        <Label Content="Quantita" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Margin="341,110,0,0" VerticalAlignment="Top" Height="44" Width="120" FontSize="25" Foreground="Red"/>
-        <TextBox x:Name="txtQuantita" HorizontalAlignment="Left" Height="23" Margin="341,159,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Label Content="Totale:&#xD;&#xA;" HorizontalAlignment="Left" Margin="341,236,0,0" VerticalAlignment="Top" Width="63" Height="37" FontSize="18"/>
-        <TextBox x:Name="txtSconto" HorizontalAlignment="Left" Height="23" Margin="509,159,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Label Content="Sconto" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Margin="509,110,0,0" VerticalAlignment="Top" Width="120" Height="44" FontSize="25" Foreground="Red"/>
+        <TextBox x:Name="txtPrezzo" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="73,113,0,0"/>
+        <Button x:Name="btnMostra" Content="Calcola" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="271,168,0,0" Height="27" Click="btnMostra_Click" FontSize="15"/>
+        <Label x:Name="lblRisultato" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="334,200,0,0" Width="305" FontSize="14" Height="37"/>
+        <Label Content="Quantita" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Margin="271,64,0,0" VerticalAlignment="Top" Height="44" Width="120" FontSize="25" Foreground="Red"/>
+        <TextBox x:Name="txtQuantita" HorizontalAlignment="Left" Height="23" Margin="271,113,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Totale:&#xD;&#xA;" HorizontalAlignment="Left" Margin="271,200,0,0" VerticalAlignment="Top" Width="63" Height="37" FontSize="18" RenderTransformOrigin="-0.155,-0.034"/>
+        <TextBox x:Name="txtSconto" HorizontalAlignment="Left" Height="23" Margin="461,113,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Sconto" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Margin="461,64,0,0" VerticalAlignment="Top" Width="120" Height="44" FontSize="25" Foreground="Red"/>
+        <Image HorizontalAlignment="Left" Height="137" Margin="62,168,0,0" VerticalAlignment="Top" Width="219" Source="bilancia.png"/>
 
     </Grid>
 </Window>
